@@ -1,0 +1,17 @@
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    
+    /* Specify the width of your pageslide here */
+    overflow-y: scroll;
+	overflow-x: hidden;    
+}
+
+#pageslide::-webkit-scrollbar {
+	display: none;
+}

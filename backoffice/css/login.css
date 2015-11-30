@@ -1,0 +1,51 @@
+body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: url(../images/login.png);
+      }
+
+      .form-signin {
+        margin-top: 130px !important;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+        padding-left: 0px !important;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 7px 6px 39px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 39px 1px rgba(0,0,0,0.75);
+box-shadow: 7px 6px 39px 1px rgba(0,0,0,0.75);
+                
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 13px;
+        width: 300px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+      .form-signin img {  
+        width: 140px;
+        height: 140px;
+      }
+
+      .centered{
+        text-align: center;
+      }
+
+      .left-bordered{
+        border-left: solid 1px #eee;
+      }
+
+      .250{
+        height: 250px;
+      }

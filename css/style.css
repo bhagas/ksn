@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Reseter v1.0 | 20080212 */
+
+
+
+
+
+
+#shoutBox {
+	width:85%;
+	max-width:220px;
+	text-align:left;
+	background-color:white;
+	border:5px solid #F09626;
+	height:100px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	
+}
+
+
+#shoutBoxTitle {
+	font-size:13px;
+	font-weight:bold;
+	background:#F09626;
+	color:white;
+	height:20px;
+	padding:5px;
+	width:85%;
+}
+
+div#map_of_mgl_blind, div.blind_area { 
+			background: transparent;
+			text-align: left;
+			vertical-align: bottom;
+			margin: 0; padding: 0;
+		}
+		p.coords { 
+			margin: 0; padding: 0;
+			position:absolute; 
+			bottom: 2px; 
+			left: 8px;
+			color: #444; 
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+		article, aside, figure, footer, header, hgroup, 
+  		menu, nav, section { display: block; }
+  	  #desc{
+		border:1px solid #ccc;
+		overflow:auto;
+		width:100%;
+		height:609px;
+		background:white;
+		width:24%;
+		left:74%;
+		position:absolute;
+		padding:2px;
+	  }
+
+	  #desc_gid td{
+		font-size:11px;
+	  }
+
+	  #legend{
+		/*padding:2px;*/
+		background:white;
+		font-family: Helvetica,Arial,sans-serif;
+		font-size:11px;
+	  }
+
+	  #legend2{
+		font-family: Helvetica,Arial,sans-serif;
+		font-size: 11px;
+		padding-left:40px;
+	  }
+
+	  #container{
+		width:72%;
+		height:500px;
+		background: white url(../images/indicator.gif) 50% 50% no-repeat;
+		overflow:hidden;
+		border:1px solid #ccc;
+		z-index:100;
+		position:absolute;
+		left:1.5%;
+	  }
+	 
+	  #bottomLegend {
+	  	background: white;
+	  	border:1px solid #ccc;
+	  	font-size:11px;
+	  	padding:2px;
+	  	z-index:400;
+	  	width:100%;
+	  	margin-top:5px;
+	  }
+	  #tdTitle {
+	border-width: thin;
+	padding: 3px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #E0E0E0;
+	font-weight: bold;
+	-moz-border-radius: ;
+}
+
+#mapTitle{
+		border-bottom:2px solid #ccc;
+		overflow:auto;
+		width:100%;
+		background:white;
+	  }
+
+#mapTitle td{
+	font-size:12px;
+}
+
+#skala {
+
+}
+
+#legendContent {
+	
+}
+
+
+#leftContent{
+		border:1px solid #ccc;
+		overflow:auto;
+		width:210px;
+		background:white;
+	  }
+
+#leftLegend{
+		padding:10px;
+		border:1px solid #ccc;
+		overflow:auto;
+		width:180px;
+		background:white;
+		font-size:11px;
+	  }
+
+
+#imgResize {
+max-width: 200px;
+height : auto;
+}
+
+#verticalText {
+	/*Safari*/
+	-webkit-transform: rotate(-90deg);
+	
+	/*Firefox*/
+	-moz-transform: rotate(-90deg);
+	
+	/*Opera*/
+	-o-transform: rotate(-90deg);
+	
+	/*IE*/
+	writing-mode: tb-rl;
+	filter: flipV flipH;
+}
+
+
+
+#thumb100 {
+border-style:none;
+max-width:100px;
+max-height:100px;
+}
+
+#thumb200 {
+border-style:none;
+max-width:200px;
+max-height:200px;
+}
+
+
+#thumb400 {
+border-style:none;
+max-width:400px;
+max-height:400px;
+}
+
+.shadow {
+    /*
+	-moz-box-shadow: 3px 3px 4px #585858;
+	-webkit-box-shadow: 3px 3px 4px #585858;
+	box-shadow: 3px 3px 4px #585858;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#585858')";
+	
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#585858');
+    */
+}
+
+
+#divLoading {
+	display:none;
+
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;
+    background: white url(loading.gif) no-repeat;
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+    z-index:999;
+    opacity: 0.9; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	background-position: center center;
+}
+
+/*toggle google button*/
+.switch {
+  position: relative;
+  margin: 5px auto;
+  height: 26px;
+  width: 120px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 58px;
+  line-height: 26px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       http://css-tricks.com/webkit-sibling-bug/
+ */
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 60px;
+  /* Note: left: 50% doesn't transition in WebKit */
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 58px;
+  height: 22px;
+  background: #65bd63;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, #9dd993, #65bd63);
+  background-image: -moz-linear-gradient(top, #9dd993, #65bd63);
+  background-image: -o-linear-gradient(top, #9dd993, #65bd63);
+  background-image: linear-gradient(to bottom, #9dd993, #65bd63);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+.switch-blue .switch-selection {
+  background: #3aa2d0;
+  background-image: -webkit-linear-gradient(top, #4fc9ee, #3aa2d0);
+  background-image: -moz-linear-gradient(top, #4fc9ee, #3aa2d0);
+  background-image: -o-linear-gradient(top, #4fc9ee, #3aa2d0);
+  background-image: linear-gradient(to bottom, #4fc9ee, #3aa2d0);
+}
+.switch-yellow .switch-selection {
+  background: #c4bb61;
+  background-image: -webkit-linear-gradient(top, #e0dd94, #c4bb61);
+  background-image: -moz-linear-gradient(top, #e0dd94, #c4bb61);
+  background-image: -o-linear-gradient(top, #e0dd94, #c4bb61);
+  background-image: linear-gradient(to bottom, #e0dd94, #c4bb61);
+}

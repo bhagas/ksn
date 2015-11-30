@@ -1,0 +1,16 @@
+body { 
+
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size:11px;
+    color: #000000;
+    
+}
+
+.bline {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.message
+{
+   color:white;
+}

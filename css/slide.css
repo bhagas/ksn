@@ -1,0 +1,35 @@
+
+#slider2,
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+  width: 100%;
+  }
+
+#slider3-pager a {
+  display: inline-block;
+}
+
+#slider3-pager img {
+  float: left;
+}
+
+#slider3-pager .rslides_here a {
+  background: transparent;
+  box-shadow: 0 0 0 2px #666;
+}
+
+#slider3-pager a {
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+  .callbacks_nav {
+    top: 47%;
+    }
+  }
